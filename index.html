@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Hangman game</title>
+            <link href="styles.css" rel="stylesheet" type="text/css"/>
+        </head>
+        <body>
+            <div id="gamewrapper">
+                <header>HANGMAN</header> 
+                <p>Use the alphabet below to guess the word</p>
+                <div id="keyboard_wrapper">
+                   <div id="firstrow">
+                        <button>q</button>
+                        <button>w</button>
+                        <button>e</button>
+                        <button>r</button>
+                        <button>t</button>
+                        <button>y</button>
+                        <button>u</button>
+                        <button>i</button>
+                        <button>o</button>
+                        <button>p</button>
+                   </div>
+                   <div id="secondrow">
+                        <button>a</button>
+                        <button>s</button>
+                        <button>d</button>
+                        <button>f</button>
+                        <button>g</button>
+                        <button>h</button>
+                        <button>j</button>
+                        <button>k</button>
+                        <button>l</button>
+                    </div>
+                    <div id="thirdrow">
+                        <button>z</button>
+                        <button>x</button>
+                        <button>c</button>
+                        <button>v</button>
+                        <button>b</button>
+                        <button>n</button>
+                        <button>m</button>
+                    </div>
+                </div>
+                <p id="blanks" >
+                </p>
+                <p>You have <span id="lives">10</span> lives</p>
+                <div id="Errors">
+                  <div id="Error1" class="invisible"></div>
+                  <div id="Error2" class="invisible"></div>
+                  <div id="Error3" class="invisible"></div>
+                  <div id="Error4" class="invisible"></div>
+                  <div id="Error5" class="invisible"></div>  
+                  <div id="Error6" class="invisible"></div>
+                  <div id="Error7" class="invisible"></div>
+                  <div id="Error8" class="invisible"></div>
+                  <div id="Error9" class="invisible"></div>
+                  <div id="Error10" class="invisible"></div> 
+                </div>
+                <p id="correctAnswer"></p>
+                <div id="playAgainWrapper">
+                    <button id="reset">Play again</button>
+                </div>
+           </div>
+           <script src="script.js" type="text/javascript"></script>
+        </body>
+    </html>

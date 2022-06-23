@@ -1,0 +1,134 @@
+#gamewrapper{
+    background-color: rgba(0, 30, 255, 0.679);
+    width:100%;
+    
+}
+body{
+    margin: 0;
+}
+p,header{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    border-style: none;
+    background-color: white;
+    color: rgba(0, 30, 255, 0.679);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15%;
+}
+#keyboard_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#keyboard_wrapper div{
+   
+    width:fit-content;
+    padding:5px;
+    margin: 0;  
+}
+#Errors{
+    border-style: dashed;
+    border-color: white;
+    width:50%;
+    margin:auto;
+    padding-bottom: 20px;
+    position:relative;
+    height:250px;
+}
+/* button:last-of-type{
+  
+} */
+#playAgainWrapper{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+#Errors div{
+    position: inherit;
+    
+    border:2px solid white;
+}
+#Error1{
+    width: 120px;
+    top:20px;
+    left:20px;
+}
+#Error2{
+    left:-70px;
+    transform: rotate(90deg);
+    top:100px;
+    width:200px
+}
+#Error3{
+    width: 150px;
+    top:200px;
+    left:20px; 
+}
+#Error4{
+    left:130px;
+    transform: rotate(90deg);
+    top:20px;
+    width:20px
+}
+#Error5{
+    width:5px;
+    border-radius: 100%;
+    padding:10px;
+    left:128px;
+    top:30px
+}
+#Error6{
+    transform: rotate(90deg);
+    top:70px;
+    width:80px; 
+    left:100px;
+}
+#Error7{
+    transform: rotate(-45deg);
+    width:70px;
+    top:80px;
+    left:80px
+}
+#Error8{
+    transform: rotate(45deg);
+    width:70px;
+    top:75px;
+    left:130px
+}
+#Error9{
+    transform: rotate(-45deg);
+    width:70px;
+    top:120px;
+    left:80px
+}
+#Error10{
+    transform: rotate(45deg);
+    width:70px;
+    top:118px;
+    left:130px
+}
+.invisible{
+    visibility: hidden;
+}
+button:disabled{
+    background-color: gray;
+}
+
+button:hover:not(button:disabled){
+    color: white;
+    background-color: rgba(0, 30, 255, 0.679);
+    width: 1.5rem;
+}
+#reset:hover{
+    width:8em;
+}
+.correct{
+    background-color: rgb(22, 162, 85) !important;
+}
+
+
+
